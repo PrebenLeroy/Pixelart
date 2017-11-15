@@ -47,14 +47,14 @@ public class MainActivity extends AppCompatActivity {
         board = (Board) findViewById(R.id.board);
 
         if(savedInstanceState != null){
-            try {
+            /*try {
                 this.grid = (Grid) jsonObject.get("savedColors");
                 Log.i("test2", grid.toString());
             } catch (JSONException e) {
                 e.printStackTrace();
             }
             board.setGrid(grid);
-            board.initBoard(MainActivity.this);
+            board.initBoard(MainActivity.this);*/
             this.currentColor = (int) savedInstanceState.getInt("color");
         }
 

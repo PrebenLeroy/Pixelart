@@ -1,11 +1,13 @@
 package com.example.pixelartexercise.models;
 
+import android.graphics.Color;
+
 /**
  * Created by prebe on 13/11/2017.
  */
 
 public class Pixel {
-    private int backgroundColor = 0;
+    private int backgroundColor = Color.parseColor("#D3D3D3");
 
     public Pixel(){}
 
