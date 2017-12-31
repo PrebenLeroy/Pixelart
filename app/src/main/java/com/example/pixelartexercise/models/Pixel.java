@@ -7,7 +7,7 @@ import android.graphics.Color;
  */
 
 public class Pixel {
-    private int backgroundColor = Color.parseColor("#D3D3D3");
+    private int backgroundColor = 0;
 
     public Pixel(){}
 

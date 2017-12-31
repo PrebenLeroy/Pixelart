@@ -56,8 +56,6 @@ public class Board extends GridLayout {
                 PixelView view = new PixelView(this.getContext(), grid.getPixel(i,j));
                 view.setPixelColor(grid.getPixel(i,j).getBackgroundColor());
                 addView(view, width, width);
-                Log.i("Info", "Added view " + i + " " + j);
-                Log.i("color", String.format("%d", view.getPixelColor()));
             }
         }
     }
